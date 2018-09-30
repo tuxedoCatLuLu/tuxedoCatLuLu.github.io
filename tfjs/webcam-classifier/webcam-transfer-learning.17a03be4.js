@@ -36409,7 +36409,7 @@ var loadMobilenet = function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.next = 2;
-            return tf.loadModel('https://storage.googleapis.com/tfjs-models/tfjs/mobilenet_v1_0.25_224/model.json');
+            return tf.loadModel('./tfjs.mobilenet_v1_0.25_224.model.json');
 
           case 2:
             mobilenet = _context.sent;
